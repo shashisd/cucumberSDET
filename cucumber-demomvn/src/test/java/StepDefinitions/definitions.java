@@ -38,7 +38,7 @@ public void click_on_submit() {
 @Then("i should see username {string}")
 public void i_should_see_username(String string) {
 	 String Actual = driver.findElement(By.id("welcome")).getText();
-	    String expected ="Welcome Paul";
+	    String expected ="Nishanth05";
 	    Assert.assertEquals(expected, Actual);
     
 }
