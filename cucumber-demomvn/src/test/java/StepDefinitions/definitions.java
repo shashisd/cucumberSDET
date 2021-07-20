@@ -35,12 +35,28 @@ public void click_on_submit() {
 	 driver.findElement(By.id("btnLogin")).click();
     
 }
-@Then("i should see username {string}")
+/*@Then("i should see username {string}")
 public void i_should_see_username(String string) {
 	 String Actual = driver.findElement(By.id("welcome")).getText();
 	    String expected ="Welcome Paul";
 	    Assert.assertEquals(expected, Actual);
     
 }
+@When("enter Invalid username {string}")
+public void enter_invalid_username(String string) {
+    
+   
+}
+
+@When("enter InValid password {string}")
+public void enter_in_valid_password(String string) {
+    
+   
+}
+@Then("i should see invalid username {string}")
+public void i_should_see_invalid_username(String string) {
+    
+   
+}*/
 
 }
