@@ -5,4 +5,5 @@ Given Login page
 When  enter valid username "Admin"
 And enter Valid password "admin123"
 And click on submit
-Then i should see username "Welcome Nishanth05"
+Then i should see username "Welcome Paul"
+
